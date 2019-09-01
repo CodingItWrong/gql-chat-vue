@@ -1,5 +1,6 @@
 <template>
   <div>
+    <h1>GQL-Chat Vue</h1>
     <form @submit.prevent="sendMessage">
       <input v-model="messageText" />
       <button>Send</button>

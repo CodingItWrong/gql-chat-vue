@@ -19,7 +19,7 @@ import gql from 'graphql-tag'
 const LOAD_MESSAGES_QUERY = gql`
   query {
     messages {
-      _id
+      id
       text
     }
   }
@@ -28,7 +28,7 @@ const LOAD_MESSAGES_QUERY = gql`
 const SEND_MESSAGE_MUTATION = gql`
   mutation($text: String!) {
     sendMessage(text: $text) {
-      _id
+      id
       text
     }
   }
@@ -37,7 +37,7 @@ const SEND_MESSAGE_MUTATION = gql`
 const NEW_MESSAGE_SUBSCRIPTION = gql`
   subscription restaurantAdded {
     messageSent {
-      _id
+      id
       text
     }
   }

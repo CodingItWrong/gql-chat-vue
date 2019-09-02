@@ -1,29 +1,28 @@
-# gql-chat
+# gql-chat-client-vue
 
-## Project setup
-```
-yarn install
-```
+Example client for a chat app using GraphQL subscriptions with Vue and Vue Apollo.
 
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
+Assessment: GraphQL subscriptions are extremely easy to set up with Vue Apollo.
 
-### Compiles and minifies for production
-```
-yarn run build
-```
+Deployed at <https://ciw-gql-chat-vue.netlify.com>
 
-### Run your tests
+## Requirements
+
+- Node
+- Yarn
+
+## Installation
+
 ```
-yarn run test
+$ yarn install
 ```
 
-### Lints and fixes files
+## Running
+
 ```
-yarn run lint
+$ yarn run serve
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## License
+
+MIT
